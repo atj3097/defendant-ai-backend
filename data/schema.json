@@ -1,0 +1,31 @@
+{
+  "users": {
+    "$user_id": {
+      "email": "string",
+      "cases": {
+        "$case_id": {
+          "case_number": "string",
+          "client_name": "string",
+          "case_type": "string",
+          "status": "string",
+          "documents": {
+            "$document_id": {
+              "document_type": "string",
+              "file_path": "string"
+            }
+          },
+          "research_queries": {
+            "$query_id": {
+              "query_text": "string"
+            }
+          },
+          "case_strategies": {
+            "$strategy_id": {
+              "strategy_text": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
